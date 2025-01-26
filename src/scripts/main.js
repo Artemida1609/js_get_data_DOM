@@ -12,12 +12,12 @@ for (let i = 0; i < population.length; i++) {
   total += formattedNumber;
 }
 
-const avarage = Math.ceil(total / population.length);
+const average = Math.ceil(total / population.length);
 
 document.getElementById('totalPopulation').innerHTML = numberWithCommas(total);
 
-document.getElementById('avaregePopulation').innerHTML =
-  numberWithCommas(avarage);
+document.getElementById('averagePopulation').innerHTML =
+  numberWithCommas(average);
 
 function numberWithCommas(x) {
   let num = x;
